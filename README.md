@@ -1,8 +1,19 @@
+<div align="center">
+
 # Local Translator GUI
+**A Library for Vision / Video and Language models**
+
+English | [日本語](./docs/README_ja.md)
+</div>
+
 
 This repository provides a GUI application that allows you to select translation engines (such as OpenAI, Ollama, etc.) and perform text translation.  
 In addition to the main translation functionality, it features the ability to **translate the same text with multiple engines and display the results for comparison**.  
 The UI uses **Streamlit**, allowing you to operate it in your web browser.
+
+<div align="center">
+<img src="images/local_translator_gui_01.png" alt="local translator result 01" width=60%>
+</div>
 
 ## Main Features
 
