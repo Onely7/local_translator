@@ -63,8 +63,8 @@ The UI uses **Streamlit**, allowing you to operate it in your web browser.
    1. Find a model you want to use from the [Ollama model list](https://ollama.com/search)  
    <img src="images/ollama_install_01.png" alt="ollama model description 01" width=85%>  
    <img src="images/ollama_install_02.png" alt="ollama model description 02" width=85%>  
-   <img src="images/ollama_install_03.png" alt="ollama model description 03" width=85%>  
-   <br>In this example, we will download `gemma3:4b-it-q4_K_M`.
+   <img src="images/ollama_install_03.png" alt="ollama model description 03" width=85%><br>
+   In this example, we will download `gemma3:4b-it-q4_K_M`.
 
    2. **Download the Model**  
       ```bash

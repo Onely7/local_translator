@@ -62,8 +62,8 @@ UI には **Streamlit** を使用しており、ブラウザ上で操作する�
     1. [Ollama の公式サイトのモデル一覧](https://ollama.com/search) から、使いたいモデルを探す  
     <img src="images/ollama_install_01.png" alt="ollama model description 01" width=85%>  
     <img src="images/ollama_install_02.png" alt="ollama model description 02" width=85%>  
-    <img src="images/ollama_install_03.png" alt="ollama model description 03" width=85%>  
-    <br>今回は、`gemma3:4b-it-q4_K_M` をダウンロードすることにします。
+    <img src="images/ollama_install_03.png" alt="ollama model description 03" width=85%><br>
+    今回は、`gemma3:4b-it-q4_K_M` をダウンロードすることにします。
 
     2. **モデルのダウンロード**  
       ```bash
