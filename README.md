@@ -1,7 +1,7 @@
 <div align="center">
 
 # Local Translator GUI
-**A Library for Vision / Video and Language models**
+**GUI Application for Translation Running on Your Local PC**
 
 English | [日本語](./docs/README_ja.md)
 </div>
