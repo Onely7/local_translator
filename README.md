@@ -4,8 +4,6 @@ This repository provides a GUI application that allows you to select translation
 In addition to the main translation functionality, it features the ability to **translate the same text with multiple engines and display the results for comparison**.  
 The UI uses **Streamlit**, allowing you to operate it in your web browser.
 
----
-
 ## Main Features
 
 1. **Model Management via YAML File**  
@@ -25,8 +23,6 @@ The UI uses **Streamlit**, allowing you to operate it in your web browser.
 3. **Support for Multiple Engines**  
    - Selecting an `OpenAI` engine sends a request to the OpenAI API.  
    - Selecting an `Ollama` engine sends a request to the local Ollama server.
-
----
 
 ## Setup
 
@@ -55,7 +51,7 @@ The UI uses **Streamlit**, allowing you to operate it in your web browser.
 
 5. **Install Ollama (Optional)**  
    If you want to use Ollama, install it separately.  
-   You have two options for installing Ollama:
+   You have **two options** for installing Ollama:
    - Download the installer from the [Ollama official website](https://ollama.com/download)  
    - If you're using Homebrew, download it via Homebrew:  
      ```bash
@@ -68,14 +64,12 @@ The UI uses **Streamlit**, allowing you to operate it in your web browser.
    <img src="images/ollama_install_01.png" alt="ollama model description 01" width=85%>  
    <img src="images/ollama_install_02.png" alt="ollama model description 02" width=85%>  
    <img src="images/ollama_install_03.png" alt="ollama model description 03" width=85%>  
-   In this example, we will download `gemma3:4b-it-q4_K_M`.
+   <br>In this example, we will download `gemma3:4b-it-q4_K_M`.
 
    2. **Download the Model**  
       ```bash
       ollama pull gemma3:4b-it-q4_K_M
       ```
-
----
 
 ## How to Run
 
@@ -95,24 +89,20 @@ You can now view your Streamlit app in your browser.
 A browser window will open displaying the translation app.  
 If it doesn't appear, open the URL shown above in your browser manually to view the interface.
 
----
-
 ## How to Use
 
 1. **Main Translation (Single Engine)**  
    - Select a **Translation Engine** from the dropdown at the top of the screen  
    - Select a **Target Language** from the dropdown on the right  
-   - Enter the text you want to translate in the left column and click the "Run Translation" button below  
+   - Enter the text you want to translate in the left column and click the **"Run Translation"** button below  
    - The translation result will appear in the right column.  
    <img src="images/local_translator_gui_01.png" alt="local translator result 01" width=85%>
 
 2. **Compare Engines (Multi-Engine Comparison)**  
    - In the **Select multiple engines to compare** section at the bottom, select multiple engines you want to compare  
    - Choose either **Horizontal** or **Vertical** under **Comparison Layout**  
-   - Click the "Compare" button, and you’ll see the translation results from each engine for the same input text and target language displayed together.  
+   - Click the **"Compare"** button, and you’ll see the translation results from each engine for the same input text and target language displayed together.  
    <img src="images/local_translator_gui_02.png" alt="local translator result 02" width=85%>  
-
----
 
 ## Notes
 

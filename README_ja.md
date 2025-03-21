@@ -4,8 +4,6 @@
 メインの翻訳機能に加えて、**複数のエンジンで同じテキストを翻訳し、結果を比較表示**する機能を備えています。  
 UI には **Streamlit** を使用しており、ブラウザ上で操作することができます。
 
----
-
 ## 主な特徴
 
 1. **YAML ファイルによるモデル管理**  
@@ -26,9 +24,7 @@ UI には **Streamlit** を使用しており、ブラウザ上で操作する�
    - `OpenAI` 系のエンジンを選択すると、OpenAI API にリクエストを送信します。  
    - `Ollama` 系のエンジンを選択すると、ローカルの Ollama サーバにリクエストを送信します。
 
----
-
-## セットアップ
+## 環境構築
 
 1. **リポジトリをクローンまたはダウンロード**  
    ```bash
@@ -67,14 +63,12 @@ UI には **Streamlit** を使用しており、ブラウザ上で操作する�
     <img src="images/ollama_install_01.png" alt="ollama model description 01" width=85%>  
     <img src="images/ollama_install_02.png" alt="ollama model description 02" width=85%>  
     <img src="images/ollama_install_03.png" alt="ollama model description 03" width=85%>  
-    今回は、`gemma3:4b-it-q4_K_M` をダウンロードすることにします。
+    <br>今回は、`gemma3:4b-it-q4_K_M` をダウンロードすることにします。
 
     2. **モデルのダウンロード**  
       ```bash
       ollama pull gemma3:4b-it-q4_K_M
       ```
-
----
 
 ## 実行方法
 
@@ -94,24 +88,20 @@ You can now view your Streamlit app in your browser.
 新規ウィンドウでブラウザが開かれ、翻訳アプリの画面が表示されます。
 もし表示されなかった場合、上記 URL をブラウザで開くと、翻訳アプリの画面が表示されるはずです。
 
----
-
 ## 使い方
 
 1. **メイン翻訳 (Single Engine)**  
    - 画面上部のプルダウンで **Translation Engine** を選択  
    - 右側のプルダウンで **Target Language** を選択  
-   - 左カラムに翻訳したいテキストを入力し、下の「Run Translation」ボタンをクリック  
+   - 左カラムに翻訳したいテキストを入力し、下の **「Run Translation」** ボタンをクリック  
    - 右カラムに翻訳結果が表示されます。
    <img src="images/local_translator_gui_01.png" alt="local translator result 01" width=85%>
 
 2. **複数エンジン比較 (Compare Engines)**  
    - 画面下部の **Select multiple engines to compare** で、比較したいエンジンを複数選択  
    - **Comparison Layout** で **Horizontal** か **Vertical** を選択  
-   - 「Compare」ボタンをクリックすると、同じテキスト・同じターゲット言語に対する各エンジンの翻訳結果がまとめて表示されます。
+   - **「Compare」** ボタンをクリックすると、同じテキスト・同じターゲット言語に対する各エンジンの翻訳結果がまとめて表示されます。
    <img src="images/local_translator_gui_02.png" alt="local translator result 02" width=85%>  
-
----
 
 ## 注意点
 
@@ -124,4 +114,3 @@ You can now view your Streamlit app in your browser.
 - **Ollama のモデルサイズ**  
   ローカルで実行する Ollama モデルは大容量の場合があります。  
   モデルダウンロードやメモリ使用量にご注意ください。
-  
